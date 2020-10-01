@@ -15,7 +15,10 @@ public class helloWorld1 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Git is Awesome");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("type anything");
+		String str = sc.nextLine();
+		System.out.print("you have entered" + str);
 		
 	}
 
