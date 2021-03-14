@@ -1,0 +1,38 @@
+commands for creating the tables
+	 * CREATE TABLE project(
+	pname varchar(15),
+	due_date varchar(6),
+	BuildSeign varchar(15),
+	tot_amount int(15),
+	ERFnumb int(15),
+	ampaid int(15),
+	projnumb varchar(15),
+	physicalAdrss varchar(15),
+	comp varchar(15)
+	);
+	
+	CREATE TABLE contractor(
+	cont_name varchar(15),
+	cont_telephone varchar(6),
+	cont_email_address varchar(15),
+	cont_physical_address varchar(15)
+	);
+	
+	CREATE TABLE customer(
+	cust_name varchar(15),
+	cust_telephone varchar(6),
+	cust_email_address varchar(15),
+	cust_physical_address varchar(15)
+	);
+
+	INSERT INTO project(pname, due_date, BuildSeign, tot_amount, ERFnumb, ampaid, projnumb, physicalAdrss, comp)
+	VALUES('dane', '11/12/2025', 'flat', '26000', '996', '14000', '221', 'brick', 'yes')
+	VALUES('lizzard', '09/05/2023', 'complex', '84000', '4521', '56000', '202', 'lane', 'no')
+	
+	INSERT INTO customer(cust_name, cust_telephone, cust_email_address, cust_physical_address)
+	VALUES('craig', '1514218415151', 'craig@', 'dunk')
+	VALUES('jeffrey', '562984629412', 'jeffrey@', 'meld')
+	
+	INSERT INTO contractor(cont_name, cont_telephone, cont_email_address, cont_physical_address)
+	VALUES('john', '2254361582526', 'john@', 'lef')
+	VALUES('mark', '1518462185115', 'mark@', 'cons')

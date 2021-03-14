@@ -1,0 +1,6 @@
+number of tasks: 5
+uncompleted tasks: 3
+completed tasks: 2
+overdue tasks: 4
+percentage for overdue: 80.0%
+percentag for incompleter: 60.0%
